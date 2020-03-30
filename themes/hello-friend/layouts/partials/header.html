@@ -1,0 +1,30 @@
+<header class="header">
+  <span class="header__inner">
+    {{ partial "logo.html" . }}
+    <span class="header__right">
+
+      <span>
+        <img 
+          width = "70" height ="70" 
+            style="position: absolute; top:-3px; right: 1250px" 
+          src="/images/logo.png" alt="peace dove"
+         />
+      </span>
+      
+      
+      {{ if len $.Site.Menus }}
+        {{ partial "menu.html" . }}
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      {{ end }}
+      
+      <span class="theme-toggle">
+        {{ partial "theme-icon.html" . }}
+      </span>
+    </span>
+  </span>
+</header>

@@ -1,0 +1,57 @@
+baseURL = "www.example.com/"
+languageCode = "pt-br"
+title = "ENGS Portifolio"
+theme = "hello-friend"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 4
+
+  # Show reading time in minutes for posts
+  showReadingTime = false
+
+[languages]
+  [languages.en]
+    title = "About Codes"
+    subtitle = "Tema simples para o Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Ver Mais"
+    writtenBy = "Escrito por"
+    readMore = "Leia Mais"
+    readOtherPosts = "Leia outros artigos"
+    newerPosts = "Novos artigos"
+    olderPosts = "Artigos antigos"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
+
+    [languages.en.params.logo]
+      logoText = "Olá Mundo!"
+      #logoHomeLink = "/posts/home"
+
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "Quem Somos"
+        name = "Quem Somos"
+        url = "/blog/quem-somos"
+      [[languages.en.menu.main]]
+        identifier = "Projetos"
+        name = "Projetos"
+        url = "/blog/projetos"
+      [[languages.en.menu.main]]
+        identifier = "Tech Stack"
+        name = "Tech Stack"
+        url = "/blog/tech-stack"
+      
+        
