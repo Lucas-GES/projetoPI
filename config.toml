@@ -1,4 +1,4 @@
-baseURL = "www.example.com/"
+baseURL = "/"
 languageCode = "pt-br"
 title = "ENGS Portifolio"
 theme = "hello-friend"

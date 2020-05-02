@@ -1,6 +1,5 @@
 ---
 title: "Quem Somos"
-draft: true
 ---
 ![](https://scontent.fldb3-1.fna.fbcdn.net/v/t1.0-9/40530015_2036331043119226_5787861571191439360_o.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_eui2=AeHgbq-BWNFBETY_7TY_ATbdQHDbCBcgjnDi_h6vyXLPsSF4J8JE-PUcNrzD05CODZ07TxdcajFkHjqGhZpAUFgfaLxyv2X1ch426M7N6mXaCg&_nc_ohc=VAxUBN9Air8AX9LyhIR&_nc_ht=scontent.fldb3-1.fna&oh=41354dc51bb83afe47269414db9e95ee&oe=5EA729BD)
 ## Matheus Henrique Scaliza

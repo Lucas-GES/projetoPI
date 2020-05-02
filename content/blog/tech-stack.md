@@ -1,6 +1,5 @@
 ---
 title: "Tech Stack"
-draft: true
 ---
 
 #### Esse Blog Portifólio foi desenvolvido com a ferramenta Static Site Gen do Hugo

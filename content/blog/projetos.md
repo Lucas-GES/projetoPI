@@ -2,7 +2,6 @@
 title: "Nossos Projetos"
 cover: "https://www.exchangewire.com.br/files/2019/01/download.png"
 date: 2020-03-28T14:56:48-03:00
-draft: true
 ---
 
 #### Nosso único projeto foi um aplicativo até o momento não funcional chamado Londri Burgers, na qual constituía em uma lanchonete fictícia onde era usado um sistema de pedidos e pagamentos pelo próprio celular.
