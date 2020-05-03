@@ -1,6 +1,6 @@
 ---
 Title: Artigos do Grupo
-cover: "http://www.redacao.org/wp-content/uploads/2016/09/O-que-%C3%A9-uma-introdu%C3%A7%C3%A3o-768x432.png"
+cover: "https://i2.wp.com/productmarketingbrasil.com.br/wp-content/uploads/2019/06/Must-Read-books.jpg?fit=5000%2C3000&ssl=1"
 Author: Matheus Henrique
 ---
 
