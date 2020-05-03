@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Portifolio</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Portifolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 28 Mar 2020 14:56:48 -0300</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introdução</title>
+      <link>/posts/introducao/</link>
+      <pubDate>Sat, 28 Mar 2020 14:56:48 -0300</pubDate>
+      
+      <guid>/posts/introducao/</guid>
+      <description>Esse Blog Portifolio foi desenvolvido com o proposito de compartilhar pequenos projetos que desenvolvemos durante o periodo da faculdade e um pouco sobre nós tambem , então Sejam Bem Vindos ! ENTRAR</description>
+    </item>
+    
+    <item>
+      <title>Artigos do Grupo</title>
+      <link>/posts/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/home/</guid>
+      <description>Veja nosso desenvolvimento de um Projeto Interdiciplinar do Ano de 2019 A atividade levou 6 meses para ser desenvolvida , foi bem complicado pois estavamos apenas no primeiro ano do curso, mas&amp;hellip;Conseguimos!!! Desenvolvimento Completo</description>
+    </item>
+    
+    <item>
+      <title>Atividade feitas em Sala</title>
+      <link>/posts/exercicios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/exercicios/</guid>
+      <description>Java Simulando um Cartão de Credito Atividade desenvolvida na aula de Java a onde criamos uma aplicação que simula um sistema de Caixa Rapido Link do Arquivo</description>
+    </item>
+    
+    <item>
+      <title>Certificado SSL</title>
+      <link>/posts/certificadossl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/certificadossl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deploy do projeto</title>
+      <link>/posts/deploy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/deploy/</guid>
+      <description>Gerar build de produção Primeiro passo foi gerar a build de produção para publicação, no caso do Hugo foi utilizado o comando &amp;ldquo;hugo&amp;rdquo; no terminal e foi gerado automaticamente uma pasta public aonde contém os arquivos de produção. Configurar bucket na Amazon S3 O segundo passo foi criar uma conta na Amazon e criar um bucket utilizando o serviço Amazon S3, este passo foi bem simples, defini o nome do bucket o mesmo que o domínio que eu pretendia registrar e defini o bucket para acesso público.</description>
+    </item>
+    
+    <item>
+      <title>Registro do domínio e configurações</title>
+      <link>/posts/registrodominio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/registrodominio/</guid>
+      <description>Registro do domínio Para registro do domínio foi utilizado o site &amp;ldquo;GoDaddy&amp;rdquo;, por conta do preço optamos por escolher o domínio terminando em &amp;ldquo;.site&amp;rdquo;. Configurando DNS pelo Amazon Route 53 Para configurações de DNS decidi usar o Amazon Route 53, então, o primeiro passo foi criar uma zona hospedada utilizando o nome de domínio registrado no GoDaddy. Após criar a zona eu copiei os valores de servidores de nome que estavam na Amazon para o GoDaddy.</description>
+    </item>
+    
+  </channel>
+</rss>

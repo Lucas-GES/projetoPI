@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Portifolio</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Portifolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 28 Mar 2020 14:56:48 -0300</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nossos Projetos</title>
+      <link>/blog/projetos/</link>
+      <pubDate>Sat, 28 Mar 2020 14:56:48 -0300</pubDate>
+      
+      <guid>/blog/projetos/</guid>
+      <description>Nosso único projeto foi um aplicativo até o momento não funcional chamado Londri Burgers, na qual constituía em uma lanchonete fictícia onde era usado um sistema de pedidos e pagamentos pelo próprio celular. Projeto feito em IONIC até o momento descontinuado. Slide do projeto
+Documento visão
+Download do Projeto</description>
+    </item>
+    
+    <item>
+      <title>Quem Somos</title>
+      <link>/blog/quem-somos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/quem-somos/</guid>
+      <description>Matheus Henrique Scaliza 19 Anos Gosto de mexer mais em javascript e ou CSS que são minhas duas áreas favoritas. Havia trabalhado em um projeto descontinuado na qual constituía em um bot da plataforma STEAM, para trocas em itens virtuais, abandonei esse projeto e pretendo voltar nele assim que adquirir mais conhecimento na área, espero também poder entrar na área de criação de jogos. Meu Projeto
+Lucas Gabriel do Espirito Santo 23 Anos Cursando Engenharia de Software na Unifil , onde comecei esse curso com o propósito de aprender sempre mais sobre as novas tecnologias na area de desenvolvedor.</description>
+    </item>
+    
+    <item>
+      <title>Tech Stack</title>
+      <link>/blog/tech-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/tech-stack/</guid>
+      <description>Esse Blog Portifólio foi desenvolvido com a ferramenta Static Site Gen do Hugo</description>
+    </item>
+    
+  </channel>
+</rss>

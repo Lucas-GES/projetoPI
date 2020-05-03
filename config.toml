@@ -19,16 +19,16 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "About Codes"
-    subtitle = "Tema simples para o Hugo"
+    title = "Portifolio"
+    subtitle = "Alunos unifil"
     keywords = ""
     copyright = ""
     menuMore = "Ver Mais"
     writtenBy = "Escrito por"
     readMore = "Leia Mais"
     readOtherPosts = "Leia outros artigos"
-    newerPosts = "Novos artigos"
-    olderPosts = "Artigos antigos"
+    newerPosts = "Página anterior"
+    olderPosts = "Proxima página"
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"

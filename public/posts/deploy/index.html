@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Deploy do projeto :: Portifolio — Alunos unifil</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Gerar build de produção Primeiro passo foi gerar a build de produção para publicação, no caso do Hugo foi utilizado o comando &amp;ldquo;hugo&amp;rdquo; no terminal e foi gerado automaticamente uma pasta public aonde contém os arquivos de produção. Configurar bucket na Amazon S3 O segundo passo foi criar uma conta na Amazon e criar um bucket utilizando o serviço Amazon S3, este passo foi bem simples, defini o nome do bucket o mesmo que o domínio que eu pretendia registrar e defini o bucket para acesso público."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/deploy/" />
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Deploy do projeto"/>
+<meta name="twitter:description" content="Gerar build de produção Primeiro passo foi gerar a build de produção para publicação, no caso do Hugo foi utilizado o comando &ldquo;hugo&rdquo; no terminal e foi gerado automaticamente uma pasta public aonde contém os arquivos de produção. Configurar bucket na Amazon S3 O segundo passo foi criar uma conta na Amazon e criar um bucket utilizando o serviço Amazon S3, este passo foi bem simples, defini o nome do bucket o mesmo que o domínio que eu pretendia registrar e defini o bucket para acesso público."/>
+
+
+
+<meta property="og:title" content="Deploy do projeto" />
+<meta property="og:description" content="Gerar build de produção Primeiro passo foi gerar a build de produção para publicação, no caso do Hugo foi utilizado o comando &ldquo;hugo&rdquo; no terminal e foi gerado automaticamente uma pasta public aonde contém os arquivos de produção. Configurar bucket na Amazon S3 O segundo passo foi criar uma conta na Amazon e criar um bucket utilizando o serviço Amazon S3, este passo foi bem simples, defini o nome do bucket o mesmo que o domínio que eu pretendia registrar e defini o bucket para acesso público." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/deploy/" />
+<meta property="og:site_name" content="Portifolio" />
+
+
+
+
+
+
+  </head>
+  
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Olá Mundo!</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+
+      <span>
+        <img 
+          width = "70" height ="70" 
+            style="position: absolute; top:-3px; right: 1250px" 
+          src="/images/logo.png" alt="peace dove"
+         />
+      </span>
+      
+      
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/blog/projetos">Projetos</a></li>
+        
+      
+        
+          <li><a href="/blog/quem-somos">Quem Somos</a></li>
+        
+      
+        
+          <li><a href="/blog/tech-stack">Tech Stack</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/blog/projetos">Projetos</a></li>
+      
+    
+      
+        <li><a href="/blog/quem-somos">Quem Somos</a></li>
+      
+    
+      
+        <li><a href="/blog/tech-stack">Tech Stack</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+      
+      
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/deploy/">Deploy do projeto</a></h2>
+    <div class="post-meta">
+      
+
+      <span class="post-author">— Escrito por Guilherme Borlot</span>
+      
+    </div>
+
+    
+
+    
+      
+        <img src="https://adaptive.com.br/wp-content/uploads/2019/09/300663-guia-completo-do-cloud-computing-para-pme-1024x684.jpg" class="post-cover" />
+      
+    
+
+    <div class="post-content">
+      <h2 id="gerar-build-de-produção">Gerar build de produção</h2>
+<h4 id="primeiro-passo-foi-gerar-a-build-de-produção-para-publicação-no-caso-do-hugo-foi-utilizado-o-comando-hugo-no-terminal-e-foi-gerado-automaticamente-uma-pasta-public-aonde-contém-os-arquivos-de-produção">Primeiro passo foi gerar a build de produção para publicação, no caso do Hugo foi utilizado o comando &ldquo;hugo&rdquo; no terminal e foi gerado automaticamente uma pasta public aonde contém os arquivos de produção.</h4>
+<p><img src="/img/hugoTerminal.png" alt=""></p>
+<p><img src="/img/pastaPublic.png" alt=""></p>
+<h2 id="configurar-bucket-na-amazon-s3">Configurar bucket na Amazon S3</h2>
+<h4 id="o-segundo-passo-foi-criar-uma-conta-na-amazon-e-criar-um-bucket-utilizando-o-serviço-amazon-s3-este-passo-foi-bem-simples-defini-o-nome-do-bucket-o-mesmo-que-o-domínio-que-eu-pretendia-registrar-e-defini-o-bucket-para-acesso-público">O segundo passo foi criar uma conta na Amazon e criar um bucket utilizando o serviço Amazon S3, este passo foi bem simples, defini o nome do bucket o mesmo que o domínio que eu pretendia registrar e defini o bucket para acesso público.</h4>
+<p><img src="/img/criacaoBucket.png" alt=""></p>
+<h4 id="após-a-criação-do-bucket-o-próximo-passo-foi-fazer-o-upload-dos-arquivos-de-produção-para-o-bucket">Após a criação do bucket o próximo passo foi fazer o upload dos arquivos de produção para o bucket.</h4>
+<p><img src="/img/uploadBucket.png" alt=""></p>
+<h4 id="com-os-arquivos-adicionados-fui-em-propriedades-do-bucket-e-selecionei-a-opção-hospedagem-de-site-estático-com-isso-o-site-já-estava-no-ar-e-funcionando-corretamente">Com os arquivos adicionados fui em propriedades do bucket e selecionei a opção &ldquo;Hospedagem de site estático&rdquo;, com isso o site já estava no ar e funcionando corretamente.</h4>
+<p><img src="/img/hospedagemSite.png" alt=""></p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leia outros artigos</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/posts/certificadossl/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Certificado SSL</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/posts/registrodominio/">
+                  <span class="button__text">Registro do domínio e configurações</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+
+    
+      
+        
+
+      
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Olá Mundo!</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+      </div>
+    
+  </div>
+  
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+
+  
+
+</html>
